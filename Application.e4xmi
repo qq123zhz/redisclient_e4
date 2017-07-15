@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_6wlLcMgZEeSyMNYR5xypkQ" elementId="redisclient_e4.application" bindingContexts="_6wlLecgZEeSyMNYR5xypkQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="redisclient_e4.window.main" label="redis Client by eclipse4.x" iconURI="platform:/plugin/redisclient_e4/icons/analysis.png" width="1024" height="768">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_6wlLkMgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.ide.perspectivestack" selectedElement="_6wlLkcgZEeSyMNYR5xypkQ">
+      <children xsi:type="advanced:Perspective" xmi:id="_6wlLkcgZEeSyMNYR5xypkQ" elementId="redisclient_e4.perspective.sample" selectedElement="_6wlLksgZEeSyMNYR5xypkQ" iconURI="platform:/plugin/redisclient_e4/icons/environment_obj.gif">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="redisclient_e4.partsashcontainer.sample" selectedElement="_6wlLk8gZEeSyMNYR5xypkQ" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="redisclient_e4.partstack.sample" containerData="2000" selectedElement="_6wlLlMgZEeSyMNYR5xypkQ">
+            <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="redisclient_e4.part.client.server" contributionURI="bundleclass://redisclient_e4/redisclient_e4.parts.RedisServerListPart" label="serverList" iconURI="platform:/plugin/redisclient_e4/icons/server/server.gif">
+              <menus xsi:type="menu:PopupMenu" xmi:id="_mU3b8GVdEeeZldYv2ez7-w" elementId="redisclient_e4.popupmenu.server" label="pop">
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_pS1o8GVdEeeZldYv2ez7-w" elementId="redisclient_e4.handledmenuitem.addserver" label="Add server" iconURI="platform:/plugin/redisclient_e4/icons/add_correction.gif" command="_xF9nAGVdEeeZldYv2ez7-w">
+                  <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_hrsIkGXlEeeeY7j2M1gG6w" coreExpressionId="rootmenu"/>
+                </children>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_dmnVkGVhEeeZldYv2ez7-w" elementId="redisclient_e4.handledmenuitem.refreshserver" label="Refresh server" iconURI="platform:/plugin/redisclient_e4/icons/refresh_nav1.gif" command="_ziwZkGVdEeeZldYv2ez7-w">
+                  <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_iBMegGXlEeeeY7j2M1gG6w" coreExpressionId="rootmenu"/>
+                </children>
+              </menus>
+            </children>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_AHqFkGVTEeeZldYv2ez7-w" elementId="redisclient_e4.partsashcontainer.0">
+            <children xsi:type="basic:PartStack" xmi:id="_FPfiEGVTEeeZldYv2ez7-w" elementId="redisclient_e4.partstack.explorStack" selectedElement="_IBzRoGVTEeeZldYv2ez7-w">
+              <children xsi:type="basic:Part" xmi:id="_IBzRoGVTEeeZldYv2ez7-w" elementId="redisclient_e4.part.dataexplorer" contributionURI="bundleclass://redisclient_e4/redisclient_e4.parts.RedisExplorerPart" label="dataExplorer" iconURI="platform:/plugin/redisclient_e4/icons/jar_nonexist_obj.gif">
+                <menus xsi:type="menu:PopupMenu" xmi:id="_aCtuoGeeEee-iJs6krS7xg" elementId="redisclient_e4.popupmenu.dataexplorer" label="dataExplorer"/>
+              </children>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_FrzDkGVTEeeZldYv2ez7-w" elementId="redisclient_e4.partstack.detail"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_6wlLicgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_6wlLisgZEeSyMNYR5xypkQ" elementId="file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6wlLjcgZEeSyMNYR5xypkQ" elementId="redisclient_e4.handleditem.quit" label="Quit" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_6wlLjsgZEeSyMNYR5xypkQ" elementId="help" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6wlLj8gZEeSyMNYR5xypkQ" elementId="redisclient_e4.handleditem.about" label="About" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_6wlLlcgZEeSyMNYR5xypkQ" elementId="redisclient_e4.trimbar.top" side="Bottom">
+      <children xsi:type="menu:ToolBar" xmi:id="_6wlLlsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_6wlLl8gZEeSyMNYR5xypkQ" elementId="redisclient_e4.handleditem.trimbar.top.open" label="donate" iconURI="platform:/plugin/redisclient_e4/icons/sample.png" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_6wlLfcgZEeSyMNYR5xypkQ" elementId="redisclient_e4.handler.quitCommand" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.QuitHandler" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_6wlLgcgZEeSyMNYR5xypkQ" elementId="redisclient_e4.handler.openCommand" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.OpenHandler" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_6wlLhMgZEeSyMNYR5xypkQ" elementId="redisclient_e4.handler.saveCommand" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.SaveHandler" command="_6wlLg8gZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_6wlLh8gZEeSyMNYR5xypkQ" elementId="redisclient_e4.handler.aboutCommand" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.AboutHandler" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_fmQSEGVhEeeZldYv2ez7-w" elementId="redisclient_e4.handler.0" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.AddServerHandler" command="_xF9nAGVdEeeZldYv2ez7-w"/>
+  <handlers xmi:id="_yir64GXlEeeeY7j2M1gG6w" elementId="redisclient_e4.handler.1" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.RefreshServerHandler" command="_ziwZkGVdEeeZldYv2ez7-w"/>
+  <handlers xmi:id="_MHJbQGakEeez-J2U5d8rJw" elementId="redisclient_e4.handler.2" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.OpenDbHandler" command="_HN8QoGakEeez-J2U5d8rJw"/>
+  <handlers xmi:id="_fNpkgGbEEeez-J2U5d8rJw" elementId="redisclient_e4.handler.3" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.OpenKeysHandler" command="_Z2VhkGbEEeez-J2U5d8rJw"/>
+  <handlers xmi:id="_xv4LgGdyEee-iJs6krS7xg" elementId="redisclient_e4.handler.4" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.RenameKeyHandler" command="_mGoQcGdyEee-iJs6krS7xg"/>
+  <handlers xmi:id="_zdI-kGdyEee-iJs6krS7xg" elementId="redisclient_e4.handler.5" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.DeleteKeyHandler" command="_kTgF8GdyEee-iJs6krS7xg"/>
+  <handlers xmi:id="_bh5mEGd1Eee-iJs6krS7xg" elementId="redisclient_e4.handler.6" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.RefreshKeysHandler" command="_ZaEW4Gd1Eee-iJs6krS7xg"/>
+  <handlers xmi:id="_8TPVYGeaEee-iJs6krS7xg" elementId="redisclient_e4.handler.7" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.UpdateServerHandler" command="_4CNlEGeaEee-iJs6krS7xg"/>
+  <handlers xmi:id="_-kYRkGeaEee-iJs6krS7xg" elementId="redisclient_e4.handler.8" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.RemoveServerHandler" command="_5tOVYGeaEee-iJs6krS7xg"/>
+  <handlers xmi:id="_Ayl1kGebEee-iJs6krS7xg" elementId="redisclient_e4.handler.9" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.PropertyServerHandler" command="_CwxZgGebEee-iJs6krS7xg"/>
+  <handlers xmi:id="_mPAP4GefEee-iJs6krS7xg" elementId="redisclient_e4.handler.10" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.PropertyDbHandler" command="_MCAXgGefEee-iJs6krS7xg"/>
+  <handlers xmi:id="_pjth4GefEee-iJs6krS7xg" elementId="redisclient_e4.handler.10" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.ImportKey2DbHandler" command="_NWjIkGefEee-iJs6krS7xg"/>
+  <handlers xmi:id="_rgia8GefEee-iJs6krS7xg" elementId="redisclient_e4.handler.10" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.ExportDbHandler" command="_OrTVAGefEee-iJs6krS7xg"/>
+  <handlers xmi:id="_gWouUGefEee-iJs6krS7xg" elementId="redisclient_e4.handler.10" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.AddkeysHandler" command="_dFqI8GejEee-iJs6krS7xg"/>
+  <handlers xmi:id="_siZ8EGepEee-iJs6krS7xg" elementId="redisclient_e4.handler.11" contributionURI="bundleclass://redisclient_e4/redisclient_e4.handlers.RefreshDbHandler" command="_mvW_YGepEee-iJs6krS7xg"/>
+  <bindingTables xmi:id="_6wlLfsgZEeSyMNYR5xypkQ" elementId="redisclient_e4.bindingtable" bindingContext="_6wlLecgZEeSyMNYR5xypkQ">
+    <bindings xmi:id="_6wlLf8gZEeSyMNYR5xypkQ" elementId="redisclient_e4.keybinding.m1q" keySequence="M1+Q" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
+    <bindings xmi:id="_6wlLgsgZEeSyMNYR5xypkQ" elementId="redisclient_e4.keybinding.m1o" keySequence="M1+O" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
+    <bindings xmi:id="_6wlLhcgZEeSyMNYR5xypkQ" elementId="redisclient_e4.keybinding.m1s" keySequence="M1+S" command="_6wlLg8gZEeSyMNYR5xypkQ"/>
+    <bindings xmi:id="_6wlLiMgZEeSyMNYR5xypkQ" elementId="redisclient_e4.keybinding.m1a" keySequence="M1+A" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
+  </bindingTables>
+  <rootContext xmi:id="_6wlLecgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_6wlLesgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_6wlLe8gZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <descriptors xmi:id="_-2DW4GYaEeeGH60y9jwyvg" elementId="redisclient_e4.partdescriptor.keylist" label="list All  keys" iconURI="platform:/plugin/redisclient_e4/icons/server/server-2.gif" tooltip="db list" allowMultiple="true" closeable="true" contributionURI="bundleclass://redisclient_e4/redisclient_e4.parts.RedisKeyListPart">
+    <menus xsi:type="menu:PopupMenu" xmi:id="_zcIsgGbDEeez-J2U5d8rJw" elementId="redisclient_e4.popupmenu.keylist" label="pop">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_17SPgGbDEeez-J2U5d8rJw" elementId="redisclient_e4.handledmenuitem.rename" label="Rename" iconURI="platform:/plugin/redisclient_e4/icons/add_connective.gif" command="_mGoQcGdyEee-iJs6krS7xg"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_9GkxgGbDEeez-J2U5d8rJw" elementId="redisclient_e4.handledmenuitem.delete" label="Delete" iconURI="platform:/plugin/redisclient_e4/icons/remove.gif" command="_kTgF8GdyEee-iJs6krS7xg"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_WmtecGd1Eee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.refreshkeys" label="refreshkeys" iconURI="platform:/plugin/redisclient_e4/icons/refresh_remote.gif" command="_ZaEW4Gd1Eee-iJs6krS7xg"/>
+    </menus>
+  </descriptors>
+  <descriptors xmi:id="_Mv70sGVTEeeZldYv2ez7-w" elementId="redisclient_e4.partdescriptor.keys.string" label="key.string" iconURI="platform:/plugin/redisclient_e4/icons/static_co.gif" allowMultiple="true" closeable="true" contributionURI="bundleclass://redisclient_e4/redisclient_e4.parts.RedisStringKeyDetailPart">
+    <menus xsi:type="menu:PopupMenu" xmi:id="_v9FLsGbDEeez-J2U5d8rJw" elementId="redisclient_e4.popupmenu.keydetail"/>
+  </descriptors>
+  <descriptors xmi:id="_eOlakGbMEeez-J2U5d8rJw" elementId="redisclient_e4.partdescriptor.keys.list" label="key.list" iconURI="platform:/plugin/redisclient_e4/icons/doc_co.gif" allowMultiple="true" closeable="true" contributionURI="bundleclass://redisclient_e4/redisclient_e4.parts.RedisListKeyDetailPart"/>
+  <descriptors xmi:id="_6faK4GbXEeez-J2U5d8rJw" elementId="redisclient_e4.partdescriptor.keys.set" label="key.set" iconURI="platform:/plugin/redisclient_e4/icons/aboutEredLabAction.gif" allowMultiple="true" closeable="true" contributionURI="bundleclass://redisclient_e4/redisclient_e4.parts.RedisSetKeyDetailPart"/>
+  <descriptors xmi:id="__CyPcGbXEeez-J2U5d8rJw" elementId="redisclient_e4.partdescriptor.keys.hash" label="key.hash" iconURI="platform:/plugin/redisclient_e4/icons/class_hi.gif" allowMultiple="true" closeable="true" contributionURI="bundleclass://redisclient_e4/redisclient_e4.parts.RedisHashKeyDetailPart"/>
+  <descriptors xmi:id="_7DPl0GbZEeez-J2U5d8rJw" elementId="redisclient_e4.partdescriptor.keys.sortedset" label="key.sortedset" iconURI="platform:/plugin/redisclient_e4/icons/alphab_sort_co.gif" allowMultiple="true" closeable="true" contributionURI="bundleclass://redisclient_e4/redisclient_e4.parts.RedisSortSetKeyDetailPart"/>
+  <menuContributions xmi:id="_oKYiIGYYEeeGH60y9jwyvg" elementId="redisclient_e4.menucontribution.server" parentId="redisclient_e4.popupmenu.server">
+    <children xsi:type="menu:HandledMenuItem" xmi:id="_p642cGYYEeeGH60y9jwyvg" elementId="redisclient_e4.handledmenuitem.update" label="Update" iconURI="platform:/plugin/redisclient_e4/icons/add_connective.gif" command="_4CNlEGeaEee-iJs6krS7xg">
+      <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_UPufoGYaEeeGH60y9jwyvg" coreExpressionId="servermenu"/>
+    </children>
+    <children xsi:type="menu:HandledMenuItem" xmi:id="_qdOHcGYYEeeGH60y9jwyvg" elementId="redisclient_e4.handledmenuitem.remove" label="Remove" iconURI="platform:/plugin/redisclient_e4/icons/remove.gif" command="_5tOVYGeaEee-iJs6krS7xg">
+      <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_UrLskGYaEeeGH60y9jwyvg" coreExpressionId="servermenu"/>
+    </children>
+    <children xsi:type="menu:HandledMenuItem" xmi:id="_qvcf4GYYEeeGH60y9jwyvg" elementId="redisclient_e4.handledmenuitem.properties" label="Properties" iconURI="platform:/plugin/redisclient_e4/icons/properties.gif" command="_CwxZgGebEee-iJs6krS7xg">
+      <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_U8uvkGYaEeeGH60y9jwyvg" coreExpressionId="servermenu"/>
+    </children>
+  </menuContributions>
+  <menuContributions xmi:id="_mFy_cGdxEee-iJs6krS7xg" elementId="redisclient_e4.menucontribution.keymenu" accessibilityPhrase="" parentId="redisclient_e4.popupmenu.dataexplorer">
+    <children xsi:type="menu:Menu" xmi:id="_fr0FIGeeEee-iJs6krS7xg" elementId="redisclient_e4.menu.new" label="New" iconURI="platform:/plugin/redisclient_e4/icons/packagefolder_obj.gif">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_hanJQGeeEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.string" label="String" iconURI="platform:/plugin/redisclient_e4/icons/static_co.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_-sO28GejEee-iJs6krS7xg" elementId="redisclient_e4.parameter.key.type" name="key.type" value="String"/>
+      </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_kAJBEGeeEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.list" label="List" iconURI="platform:/plugin/redisclient_e4/icons/doc_co.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_SLfE8GekEee-iJs6krS7xg" elementId="redisclient_e4.parameter.1" name="key.type" value="List"/>
+      </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_k4JnIGeeEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.set" label="Set" iconURI="platform:/plugin/redisclient_e4/icons/aboutEredLabAction.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_PohY8GekEee-iJs6krS7xg" elementId="redisclient_e4.parameter.0" name="key.type" value="Set"/>
+      </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_ljo0IGeeEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.sortset" label="SortSet" iconURI="platform:/plugin/redisclient_e4/icons/alphab_sort_co.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_hUfrcGekEee-iJs6krS7xg" elementId="redisclient_e4.parameter.3" name="key.type" value="SortSet"/>
+      </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_mgOYMGeeEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.hash" label="Hash" iconURI="platform:/plugin/redisclient_e4/icons/class_hi.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_fvsQ0GekEee-iJs6krS7xg" elementId="redisclient_e4.parameter.2" name="key.type" value="Hash"/>
+      </children>
+    </children>
+    <children xsi:type="menu:HandledMenuItem" xmi:id="_wDooIGeeEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.property" label="Property" iconURI="platform:/plugin/redisclient_e4/icons/properties.gif" command="_MCAXgGefEee-iJs6krS7xg"/>
+    <children xsi:type="menu:HandledMenuItem" xmi:id="_6NMSEGeeEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.import" label="Import" iconURI="platform:/plugin/redisclient_e4/icons/next.png" command="_NWjIkGefEee-iJs6krS7xg"/>
+    <children xsi:type="menu:HandledMenuItem" xmi:id="_7WW5kGeeEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.export" label="Export" iconURI="platform:/plugin/redisclient_e4/icons/arrow_up.png" command="_OrTVAGefEee-iJs6krS7xg"/>
+    <children xsi:type="menu:HandledMenuItem" xmi:id="_hLt7MGeqEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.refresh" label="refresh" iconURI="platform:/plugin/redisclient_e4/icons/refresh_remote.gif" command="_mvW_YGepEee-iJs6krS7xg"/>
+    <children xsi:type="menu:DynamicMenuContribution" xmi:id="_UO0YMGewEee-iJs6krS7xg" elementId="redisclient_e4.dynamicmenucontribution.0" label="dynamic" contributionURI="bundleclass://redisclient_e4/redisclient_e4.addons.DynamicMenu"/>
+  </menuContributions>
+  <menuContributions xmi:id="_Ixww8GeuEee-iJs6krS7xg" elementId="redisclient_e4.menucontribution.key.new" parentId="redisclient_e4.popupmenu.keylist">
+    <children xsi:type="menu:Menu" xmi:id="_L-UzkGeuEee-iJs6krS7xg" elementId="redisclient_e4.menu.new" label="New" iconURI="platform:/plugin/redisclient_e4/icons/packagefolder_obj.gif">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_L-UzkWeuEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.string" label="String" iconURI="platform:/plugin/redisclient_e4/icons/static_co.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_L-UzkmeuEee-iJs6krS7xg" elementId="redisclient_e4.parameter.key.type" name="key.type" value="String"/>
+      </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_L-Uzk2euEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.list" label="List" iconURI="platform:/plugin/redisclient_e4/icons/doc_co.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_L-UzlGeuEee-iJs6krS7xg" elementId="redisclient_e4.parameter.1" name="key.type" value="List"/>
+      </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_L-UzlWeuEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.set" label="Set" iconURI="platform:/plugin/redisclient_e4/icons/aboutEredLabAction.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_L-UzlmeuEee-iJs6krS7xg" elementId="redisclient_e4.parameter.0" name="key.type" value="Set"/>
+      </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_L-Uzl2euEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.sortset" label="SortSet" iconURI="platform:/plugin/redisclient_e4/icons/alphab_sort_co.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_L-UzmGeuEee-iJs6krS7xg" elementId="redisclient_e4.parameter.3" name="key.type" value="SortSet"/>
+      </children>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_L-UzmWeuEee-iJs6krS7xg" elementId="redisclient_e4.handledmenuitem.hash" label="Hash" iconURI="platform:/plugin/redisclient_e4/icons/class_hi.gif" command="_dFqI8GejEee-iJs6krS7xg">
+        <parameters xmi:id="_L-UzmmeuEee-iJs6krS7xg" elementId="redisclient_e4.parameter.2" name="key.type" value="Hash"/>
+      </children>
+    </children>
+  </menuContributions>
+  <commands xmi:id="_6wlLfMgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_6wlLgMgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.open" commandName="openCommand"/>
+  <commands xmi:id="_6wlLg8gZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_6wlLhsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_xF9nAGVdEeeZldYv2ez7-w" elementId="redisclient_e4.command.addserver" commandName="add server"/>
+  <commands xmi:id="_ziwZkGVdEeeZldYv2ez7-w" elementId="redisclient_e4.command.refreshserver" commandName="refresh server"/>
+  <commands xmi:id="_HN8QoGakEeez-J2U5d8rJw" elementId="redisclient_e4.command.opendb" commandName="open db">
+    <parameters xmi:id="_Cu_RsGanEeez-J2U5d8rJw" elementId="DbElement" name="DbElement" typeId=""/>
+  </commands>
+  <commands xmi:id="_Z2VhkGbEEeez-J2U5d8rJw" elementId="redisclient_e4.command.openkey" commandName="open key">
+    <parameters xmi:id="_b4LdgGbEEeez-J2U5d8rJw" elementId="KeysElement" name="KeysElement"/>
+  </commands>
+  <commands xmi:id="_kTgF8GdyEee-iJs6krS7xg" elementId="redisclient_e4.command.deletekey" commandName="deletekey"/>
+  <commands xmi:id="_mGoQcGdyEee-iJs6krS7xg" elementId="redisclient_e4.command.renamekey" commandName="renamekey"/>
+  <commands xmi:id="_ZaEW4Gd1Eee-iJs6krS7xg" elementId="redisclient_e4.command.refreshkeys" commandName="refreshkeys"/>
+  <commands xmi:id="_4CNlEGeaEee-iJs6krS7xg" elementId="redisclient_e4.command.updateserver" commandName="update server"/>
+  <commands xmi:id="_5tOVYGeaEee-iJs6krS7xg" elementId="redisclient_e4.command.removeserver" commandName="remove server"/>
+  <commands xmi:id="_CwxZgGebEee-iJs6krS7xg" elementId="redisclient_e4.command.serverproperty" commandName="server property"/>
+  <commands xmi:id="_MCAXgGefEee-iJs6krS7xg" elementId="redisclient_e4.command.dbproperty" commandName="db property"/>
+  <commands xmi:id="_NWjIkGefEee-iJs6krS7xg" elementId="redisclient_e4.command.importdata" commandName="import data"/>
+  <commands xmi:id="_OrTVAGefEee-iJs6krS7xg" elementId="redisclient_e4.command.exportdata" commandName="export data"/>
+  <commands xmi:id="_dFqI8GejEee-iJs6krS7xg" elementId="redisclient_e4.command.newstringkey" commandName="New String key">
+    <parameters xmi:id="_dFqI8WejEee-iJs6krS7xg" elementId="key.type" name="key.type"/>
+  </commands>
+  <commands xmi:id="_mvW_YGepEee-iJs6krS7xg" elementId="redisclient_e4.command.refreshdb" commandName="refresh Db"/>
+  <addons xmi:id="_6wlLcsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_6wlLc8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_6wlLdMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_6wlLdcgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_6wlLdsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_6wlLd8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_6wlLeMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_q5aj0GePEee-iJs6krS7xg" elementId="redisclient_e4.addon.window.addon" contributionURI="bundleclass://redisclient_e4/redisclient_e4.addons.RedisClientWindowAddon"/>
+</application:Application>
